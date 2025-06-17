@@ -1,0 +1,61 @@
+# Magento 2 Git Ignore
+
+# === Magento 2 core ===
+/app/code/Magento/
+/vendor/
+/generated/
+/pub/static/*
+!/pub/static/.htaccess
+/var/*
+!/var/.htaccess
+!/var/.user.ini
+
+# === Static content & cache ===
+/pub/static/*
+/var/view_preprocessed/*
+/var/cache/*
+/var/page_cache/*
+/var/composer_home/
+
+# === Backup and logs ===
+/*.log
+*.log
+*.tmp
+*.swp
+*.swo
+*.zip
+*.gz
+*.gzip
+*.tar
+*.bak
+
+# === Environment & Credentials ===
+/app/etc/env.php
+/app/etc/config.php
+
+# === IDEs & Editors ===
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Composer ===
+/auth.json
+
+# === Node / Frontend ===
+/node_modules/
+/yarn-error.log
+/.pnp
+.pnp.js
+
+# === PHPUnit ===
+/.phpunit.result.cache
+
+# === Others ===
+*.sql
+*.sqlite
+*.db
