@@ -3,6 +3,7 @@
 # === Magento 2 core ===
 /app/code/Magento/
 /vendor/
+pub/media/*
 /generated/
 /pub/static/*
 !/pub/static/.htaccess
